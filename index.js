@@ -17,7 +17,7 @@ function deleteFromObjectByKey(object, key) {
 
   Object.assign(holderObj, object);
 
-  delete.holderObj.key
+  delete holderObj.key
 
   return holderObj;
 
