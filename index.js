@@ -15,9 +15,9 @@ function deleteFromObjectByKey(object, key) {
   //delete from clone and return updated clone
   var holderObj = {};
 
-  Object.assign(holderObj, object);
+  Object.assign(holderObj, object); console.log(holderObj)
 
-  delete holderObj.key
+  delete holderObj[key]; console.log(holderObj[key])
 
   return holderObj;
 
